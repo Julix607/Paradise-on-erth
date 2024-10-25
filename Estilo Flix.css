@@ -1,0 +1,42 @@
+body{
+    color:black;
+    background:radial-gradient(#ff0000, #7c2929);
+    font-family: "Kanit", sans-serif;
+    margin-bottom: 100px;
+}
+header{
+    border-bottom: solid 2px rgb(73, 86, 211);
+    padding: 20px;
+    background: radial-gradient(#ff0000, #7c2929);  font-size: 30px;
+}
+.chamada{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.chamada-texto {
+    margin-right: 10%;
+}
+p{
+font-size: 25px;
+}
+.videos-legal{
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;px
+}
+.video{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top:25px;
+}
+.videos-legal img{
+    opacity: 0.50;
+    height: 150px;
+}
+.videos-legal img:hover{
+    opacity: 1.0;
+    border: 2px solid rgb(73, 86, 211);
+}
+.video h2{
+color: rgb(73, 86, 211);}
